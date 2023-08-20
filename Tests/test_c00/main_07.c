@@ -4,7 +4,7 @@ void	ft_putnbr(int nb);
 
 int	main(void)
 {
-	printf("Input : -2147463648\n\n");
+	printf("Input : -2147483648\n\n");
 	ft_putnbr(-2147463648);
 	printf("\n\n----------\n\n");
 	printf("Input : -10000\n\n");
@@ -29,6 +29,6 @@ int	main(void)
 	ft_putnbr(10000);
 	printf("\n\n----------\n\n");
 	printf("Input : 2147463647\n\n");
-	ft_putnbr(2147463647);
+	ft_putnbr(2147483647);
 	printf("\n\n----------\n\n");
 }
